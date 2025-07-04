@@ -75,3 +75,14 @@
 2025-07-04 13:57:22,479 INFO: Wrote eyestates in C:\Storage\Lavinda\Work\iabg\pupillabs\pupilLabs\export\2025-05-12-16-20-29\2025-05-12-16-20-29.hdf5
 2025-07-04 13:57:22,546 INFO: Wrote imu in C:\Storage\Lavinda\Work\iabg\pupillabs\pupilLabs\export\2025-05-12-16-20-29\2025-05-12-16-20-29.hdf5
 2025-07-04 13:57:22,570 INFO: Wrote events in C:\Storage\Lavinda\Work\iabg\pupillabs\pupilLabs\export\2025-05-12-16-20-29\2025-05-12-16-20-29.hdf5
+2025-07-04 14:56:35,520 INFO: Using C:/Storage/useless shit/testDataset as recording file path.
+2025-07-04 14:56:35,520 INFO: Using 2025-05-12-16-20-29 as recording number.
+2025-07-04 14:56:35,520 INFO: Using C:/Storage/Lavinda/Work/iabg/pupillabs/pupilLabs/export as export path.
+2025-07-04 14:56:35,610 INFO: Wrote C:\Storage\Lavinda\Work\iabg\pupillabs\pupilLabs\export\2025-05-12-16-20-29\csv\gaze.csv
+2025-07-04 14:56:35,709 INFO: Wrote gaze in C:\Storage\Lavinda\Work\iabg\pupillabs\pupilLabs\export\2025-05-12-16-20-29\2025-05-12-16-20-29.hdf5
+2025-07-04 14:56:35,739 INFO: Wrote blinks in C:\Storage\Lavinda\Work\iabg\pupillabs\pupilLabs\export\2025-05-12-16-20-29\2025-05-12-16-20-29.hdf5
+2025-07-04 14:56:35,766 INFO: Wrote fixations in C:\Storage\Lavinda\Work\iabg\pupillabs\pupilLabs\export\2025-05-12-16-20-29\2025-05-12-16-20-29.hdf5
+2025-07-04 14:56:35,791 INFO: Wrote saccades in C:\Storage\Lavinda\Work\iabg\pupillabs\pupilLabs\export\2025-05-12-16-20-29\2025-05-12-16-20-29.hdf5
+2025-07-04 14:56:35,918 INFO: Wrote eyestates in C:\Storage\Lavinda\Work\iabg\pupillabs\pupilLabs\export\2025-05-12-16-20-29\2025-05-12-16-20-29.hdf5
+2025-07-04 14:56:35,987 INFO: Wrote imu in C:\Storage\Lavinda\Work\iabg\pupillabs\pupilLabs\export\2025-05-12-16-20-29\2025-05-12-16-20-29.hdf5
+2025-07-04 14:56:36,012 INFO: Wrote events in C:\Storage\Lavinda\Work\iabg\pupillabs\pupilLabs\export\2025-05-12-16-20-29\2025-05-12-16-20-29.hdf5

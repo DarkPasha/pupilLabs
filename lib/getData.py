@@ -10,6 +10,7 @@ from pathlib import Path
 import cv2
 import numpy as np
 import pandas as pd
+import shutil
 
 
 from scipy.spatial.transform import Rotation
@@ -614,6 +615,13 @@ def export(csv: bool =True, hdf5: bool = True, recording_file: str = None, recor
     
     export_path= export_path / recording_number
     export_path.mkdir(parents=True, exist_ok=True)
+
+    if export_path.exists() and export_path.is_dir():
+        for item in export_path.iterdir():
+            if item.is_dir():
+                shutil.rmtree(item)
+            else:
+                item.unlink()
 
     data_keys = [f"--{k}" for k in func_map]
     if hdf5:
