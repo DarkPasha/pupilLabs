@@ -8,8 +8,6 @@ hdf5 files can be read again as a pandas DataFrame.An example of how to do this 
 
 import lib.getData as getData
 import json
-from pathlib import Path
-import lib.getData as getData
 
 # Load config file
 with open("config.json", "r") as f:
@@ -23,6 +21,6 @@ export_csv = config.get("csv", True)
 export_hdf5 = config.get("hdf5", True)
 
 # Call export
-getData.export(csv=export_csv, hdf5=export_hdf5, recording_file=recording_file, recording_number=recording_number, export_path=export_path)
+getData.export(csv=export_csv, hdf5=export_hdf5, recording_file=recording_file, recording_number=recording_number, export_path=export_path, resample=True)
 
 

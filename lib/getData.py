@@ -4,14 +4,13 @@ It includes functions to export gaze data, blinks, fixations, saccades, eye stat
 '''
 
 import json
-import sys
-import time
+
 from pathlib import Path
 
 import cv2
 import numpy as np
 import pandas as pd
-import h5py
+
 
 from scipy.spatial.transform import Rotation
 
@@ -481,7 +480,7 @@ def export_events(recording, export_path,csv: bool = True, hdf5: bool = True, hd
             return
 
 
-def export_info(recording, export_path):
+def export_info(recording, export_path,csv: bool = True,hdf5: bool = True, hdf5_path= None):
     """
     Exports recording information to a JSON file.
     
@@ -494,7 +493,7 @@ def export_info(recording, export_path):
         json.dump(recording.info, f, indent=4, sort_keys=True)
 
 
-def export_scene_camera_calibration(recording, export_path):
+def export_scene_camera_calibration(recording, export_path,csv: bool = True,hdf5: bool = True, hdf5_path= None):
     """
     Exports scene camera calibration data to a JSON file.
 
@@ -513,7 +512,7 @@ def export_scene_camera_calibration(recording, export_path):
         json.dump(camera_info, f, indent=4, sort_keys=True)
 
 
-def export_world_timestamps(recording, export_path):
+def export_world_timestamps(recording, export_path,csv: bool = True,hdf5: bool = True, hdf5_path= None):
     """
     Exports world timestamps from a recording to a CSV file.
     :param recording: The recording object containing world timestamps.
@@ -528,7 +527,7 @@ def export_world_timestamps(recording, export_path):
     events.to_csv(export_file, index=False)
     print(f"Wrote {export_file}")
 
-def export(csv: bool =True, hdf5: bool = True, recording_file: str = None, recording_number: str = None,export_path: str = None):
+def export(csv: bool =True, hdf5: bool = True, recording_file: str = None, recording_number: str = None,export_path: str = None, resample: bool = False):
     """
     main callable function to export data from a Pupil Labs recording.
 
@@ -613,9 +612,6 @@ def export(csv: bool =True, hdf5: bool = True, recording_file: str = None, recor
     }
 
     
-
-    timestamp = time.strftime("%Y-%m-%d_%H-%M")
-    safe_timestamp = timestamp.replace(":", "-").replace(" ", "_")
     export_path= export_path / recording_number
     export_path.mkdir(parents=True, exist_ok=True)
 
