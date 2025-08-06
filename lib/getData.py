@@ -532,13 +532,17 @@ def export(csv: bool =True, hdf5: bool = True, recording_file: str = None, recor
     """
     main callable function to export data from a Pupil Labs recording.
 
-    
+
     :param csv: Boolean indicating whether to export to CSV format.
     :param hdf5: Boolean indicating whether to export to HDF5 format.
     :param recording_file: The path to the recording file. If None, defaults to the parent directory of the current working directory.
     :param recording_number: The recording number. If None, defaults to the first directory in the recording file path.
     :param export_path: The path where the exported files will be saved. If None, defaults to a directory named "export" in the parent directory of the current working directory.
     :return: None
+
+    :raises:
+        Logging: Logs warnings and errors during the export process.
+
 
     """
     
@@ -587,7 +591,6 @@ def export(csv: bool =True, hdf5: bool = True, recording_file: str = None, recor
     except Exception as e:
         logging.error(f"An error occurred while getting the export path: {e}, export path: {export_path}")
         return
-
 
     try: # open the recording file
         recording = nr.open(recording_path)
