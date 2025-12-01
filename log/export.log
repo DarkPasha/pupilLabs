@@ -86,3 +86,31 @@
 2025-07-04 14:56:35,918 INFO: Wrote eyestates in C:\Storage\Lavinda\Work\iabg\pupillabs\pupilLabs\export\2025-05-12-16-20-29\2025-05-12-16-20-29.hdf5
 2025-07-04 14:56:35,987 INFO: Wrote imu in C:\Storage\Lavinda\Work\iabg\pupillabs\pupilLabs\export\2025-05-12-16-20-29\2025-05-12-16-20-29.hdf5
 2025-07-04 14:56:36,012 INFO: Wrote events in C:\Storage\Lavinda\Work\iabg\pupillabs\pupilLabs\export\2025-05-12-16-20-29\2025-05-12-16-20-29.hdf5
+2025-12-01 09:43:04,264 INFO: Using /Users/emirhanafsin/Documents/IABG/HSI/pupilLabs/testDataset as recording file path.
+2025-12-01 09:43:04,267 INFO: Using 2025-05-12-16-20-29 as recording number.
+2025-12-01 09:43:04,267 INFO: Using /Users/emirhanafsin/Documents/IABG/HSI/exports/pupillabs as export path.
+2025-12-01 09:43:04,294 INFO: Wrote /Users/emirhanafsin/Documents/IABG/HSI/exports/pupillabs/2025-05-12-16-20-29/csv/gaze.csv
+2025-12-01 09:43:04,691 INFO: Wrote gaze in /Users/emirhanafsin/Documents/IABG/HSI/exports/pupillabs/2025-05-12-16-20-29/2025-05-12-16-20-29.hdf5
+2025-12-01 09:43:04,842 INFO: Wrote gaze JSON log: /Users/emirhanafsin/Documents/IABG/HSI/exports/pupillabs/2025-05-12-16-20-29/csv/gaze.json
+2025-12-01 09:43:04,845 INFO: Wrote /Users/emirhanafsin/Documents/IABG/HSI/exports/pupillabs/2025-05-12-16-20-29/csv/blinks.csv
+2025-12-01 09:43:04,851 INFO: Wrote blinks in /Users/emirhanafsin/Documents/IABG/HSI/exports/pupillabs/2025-05-12-16-20-29/2025-05-12-16-20-29.hdf5
+2025-12-01 09:43:04,853 INFO: Wrote blinks JSON log: /Users/emirhanafsin/Documents/IABG/HSI/exports/pupillabs/2025-05-12-16-20-29/csv/blinks.json
+2025-12-01 09:43:04,854 INFO: Wrote /Users/emirhanafsin/Documents/IABG/HSI/exports/pupillabs/2025-05-12-16-20-29/csv/fixations.csv
+2025-12-01 09:43:04,861 INFO: Wrote fixations in /Users/emirhanafsin/Documents/IABG/HSI/exports/pupillabs/2025-05-12-16-20-29/2025-05-12-16-20-29.hdf5
+2025-12-01 09:43:04,864 INFO: Wrote fixations JSON log: /Users/emirhanafsin/Documents/IABG/HSI/exports/pupillabs/2025-05-12-16-20-29/csv/fixations.json
+2025-12-01 09:43:04,865 INFO: Wrote /Users/emirhanafsin/Documents/IABG/HSI/exports/pupillabs/2025-05-12-16-20-29/csv/saccades.csv
+2025-12-01 09:43:04,870 INFO: Wrote saccades in /Users/emirhanafsin/Documents/IABG/HSI/exports/pupillabs/2025-05-12-16-20-29/2025-05-12-16-20-29.hdf5
+2025-12-01 09:43:04,875 INFO: Wrote saccades JSON log: /Users/emirhanafsin/Documents/IABG/HSI/exports/pupillabs/2025-05-12-16-20-29/csv/saccades.json
+2025-12-01 09:43:04,933 INFO: Wrote /Users/emirhanafsin/Documents/IABG/HSI/exports/pupillabs/2025-05-12-16-20-29/csv/3d_eye_states.csv
+2025-12-01 09:43:04,938 INFO: Wrote eyestates in /Users/emirhanafsin/Documents/IABG/HSI/exports/pupillabs/2025-05-12-16-20-29/2025-05-12-16-20-29.hdf5
+2025-12-01 09:43:05,275 INFO: Wrote eyestates JSON log: /Users/emirhanafsin/Documents/IABG/HSI/exports/pupillabs/2025-05-12-16-20-29/csv/3d_eye_states.json
+2025-12-01 09:43:05,304 INFO: Wrote /Users/emirhanafsin/Documents/IABG/HSI/exports/pupillabs/2025-05-12-16-20-29/csv/imu.csv
+2025-12-01 09:43:05,308 INFO: Wrote imu in /Users/emirhanafsin/Documents/IABG/HSI/exports/pupillabs/2025-05-12-16-20-29/2025-05-12-16-20-29.hdf5
+2025-12-01 09:43:05,422 INFO: Wrote imu JSON log: /Users/emirhanafsin/Documents/IABG/HSI/exports/pupillabs/2025-05-12-16-20-29/csv/imu.json
+2025-12-01 09:43:05,426 INFO: Wrote /Users/emirhanafsin/Documents/IABG/HSI/exports/pupillabs/2025-05-12-16-20-29/csv/events.csv
+2025-12-01 09:43:05,429 INFO: Wrote events in /Users/emirhanafsin/Documents/IABG/HSI/exports/pupillabs/2025-05-12-16-20-29/2025-05-12-16-20-29.hdf5
+2025-12-01 09:43:05,430 INFO: Wrote events JSON log: /Users/emirhanafsin/Documents/IABG/HSI/exports/pupillabs/2025-05-12-16-20-29/csv/events.json
+2025-12-01 09:43:05,430 INFO: Wrote info.json
+2025-12-01 09:43:05,431 INFO: Wrote scene_camera.json
+2025-12-01 09:43:05,476 INFO: Wrote /Users/emirhanafsin/Documents/IABG/HSI/exports/pupillabs/2025-05-12-16-20-29/csv/world_timestamps.csv
+2025-12-01 09:43:05,494 INFO: Wrote world_timestamps JSON log: /Users/emirhanafsin/Documents/IABG/HSI/exports/pupillabs/2025-05-12-16-20-29/csv/world_timestamps.json

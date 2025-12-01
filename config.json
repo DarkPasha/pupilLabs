@@ -1,7 +1,7 @@
 {
-  "recording_file": "C:/Storage/useless shit/testDataset",
+  "recording_file": "/Users/emirhanafsin/Documents/IABG/HSI/pupilLabs/testDataset",
   "recording_number": "2025-05-12-16-20-29",
-  "export_path": "C:/Storage/Lavinda/Work/iabg/pupillabs/pupilLabs/export",
+  "export_path": "/Users/emirhanafsin/Documents/IABG/HSI/exports/pupillabs",
   "csv": true,
   "hdf5": true
 }
