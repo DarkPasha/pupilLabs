@@ -36,10 +36,7 @@ def _save_json_for_stream(df: pd.DataFrame,
                           json_path: Path,
                           csv_path: Path | None = None,
                           hdf5_path: str | None = None):
-    """
-    Speichert eine JSON-Logdatei mit Tabellenstruktur und Meta-Infos
-    für einen Stream (gaze, blinks, ...).
-    """
+   
     try:
         columns = list(df.columns)
         rows = df.to_numpy().tolist()
